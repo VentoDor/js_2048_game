@@ -320,7 +320,3 @@ class Game {
 }
 
 export default Game; // для браузера (ESM)
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = Game; // для Jest/Node (CommonJS)
-}
